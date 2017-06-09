@@ -2219,6 +2219,16 @@ Enabled | Yes
 
 Checks for spaces inside ordinary round parentheses.
 
+### Example
+
+```ruby
+#bad
+f(a )
+
+#good
+f(a)
+```
+
 ### References
 
 * [https://github.com/bbatsov/ruby-style-guide#no-spaces-braces](https://github.com/bbatsov/ruby-style-guide#no-spaces-braces)
